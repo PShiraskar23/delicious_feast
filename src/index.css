@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(220, 222, 220);
+}
+
+::-webkit-scrollbar-thumb{
+  height: 15px;
+  width: 6px;
+  border-radius: 12px;
+  background: rgb(22 163 74);
+  
+}
