@@ -6,6 +6,8 @@ import Cart from "../Components/cart";
 import SearchBar from "../Components/sarchBar";
 import { useDispatch } from "react-redux";
 import { emptyCart } from "../Redux/slices/cartSlice";
+import { setCategory } from "../Redux/slices/categorySlice";
+import { setSearch } from "../Redux/slices/searchSlice"
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -17,6 +19,8 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(emptyCart([]));
+    dispatch(setCategory("All"))
+    dispatch(setSearch(""))
   }, []);
 
   return (
