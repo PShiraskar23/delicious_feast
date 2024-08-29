@@ -115,7 +115,7 @@ const Cart = ({ setIsCartOpen, isCartOpen }) => {
               className="px-4 py-2 text-white bg-green-600 rounded-xl"
               onClick={() => setIsCartOpen(false)}
             >
-              Start Shopping
+              Browse Cuisines
             </button>
           </div>
         )}
