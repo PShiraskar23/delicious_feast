@@ -30,7 +30,7 @@ const SuccessPage = () => {
             className="px-3 py-2 text-[12px] text-white bg-green-600 rounded-xl m-4 sm:px-5 sm:py-3  xl:text-[16px]"
             onClick={() => navigate("/")}
           >
-            Continue Shopping
+             Keep Exploring
           </button>
         </>
       )}
