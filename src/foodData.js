@@ -128,7 +128,7 @@ const FoodData = [
   },
   {
     id: 15,
-    img: "https://w7.pngwing.com/pngs/47/171/png-transparent-chinese-noodles-hot-and-sour-soup-risotto-lomi-lamian-slippery-mushrooms-risotto-dusi-soup-food-recipe-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/risotto-rice-with-mushrooms-white-ceramic-plate_23-2147925971.jpg?uid=R157780619&ga=GA1.1.1465475739.1722683957&semt=ais_hybrid",
     name: "Mushroom Risotto",
     price: 175,
     desc: "Indulge in creamy and flavorful mushroom risotto, made with Arborio rice, sautéed mushrooms, and a touch of Parmesan cheese. A comforting and sophisticated dinner choice.",
