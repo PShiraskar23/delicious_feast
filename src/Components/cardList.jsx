@@ -52,8 +52,8 @@ const cardList = () => {
       ) && (
         <div className=" w-full flex h-[50vh] flex-col justify-center items-center">
           <img src={emptyImg} alt="empty" className="w-20" />
-          <p className="text-gray-600  text-xl font-semibold py-5">
-            No Items Found
+          <p className="text-gray-600  text-[16px] sm:text-xl font-semibold py-5">
+            Oops! That item isn't on the menu
           </p>
         </div>
       )}
